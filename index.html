@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Quay dựng & Thiết kế</title>
+  <meta name="description" content="Portfolio cá nhân về quay dựng video, thiết kế hình ảnh và truyền thông đa phương tiện.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">TRUNG ĐOÀN 2<span></span></a>
+    <button class="menu-btn" aria-label="Mở menu">☰</button>
+    <nav class="nav">
+      <a href="#home">Trang chủ</a>
+      <a href="#about">Giới thiệu</a>
+      <a href="#skills">Tài liệu</a>
+      <a href="#projects">Đội thi</a>
+      <a href="#contact">Góp ý</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content reveal">
+        </div>
+      </div>
+      <div class="scroll">Kéo xuống ↓</div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head reveal">
+        <span>01</span>
+        <h2>Giới thiệu</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <img class="avatar" src="images/avatar.jpg" alt="Ảnh đại diện">
+          <h4>HỘI THI THANH NIÊN TRUNG ĐOÀN<br>VỚI VĂN HOÁ GIAO THÔNG</h4>
+          <p>Chuyên thực hiện các sản phẩm truyền thông bằng hình ảnh, video, motion và thiết kế đồ họa.</p>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">Tôi yêu thích việc kể một câu chuyện bằng hình ảnh.</p>
+          <p>Từ khâu lên ý tưởng, quay phim, dựng hậu kỳ đến thiết kế poster, banner và nội dung trình chiếu, tôi hướng tới sản phẩm rõ ràng, hiện đại và có tính ứng dụng thực tế.</p>
+          <div class="stats">
+            <div><b>VIDEO</b><span>Quay & dựng</span></div>
+            <div><b>DESIGN</b><span>Đồ họa & poster</span></div>
+            <div><b>MOTION</b><span>Chuyển động</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark">
+      <div class="section-head reveal">
+        <span>02</span>
+        <h2>Tài liệu</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill reveal"><div class="num">01</div><h3>Tài liệu 1</h3><p>Mô tả nội dung.</p><div class="bar"><i style="width:90%"></i></div></article>
+        <article class="skill reveal"><div class="num">02</div><h3>Tài liệu 2</h3><p>Mô tả nội dung.</p><div class="bar"><i style="width:88%"></i></div></article>
+        <article class="skill reveal"><div class="num">03</div><h3>Tài liệu 3</h3><p>Mô tả nội dung.</p><div class="bar"><i style="width:78%"></i></div></article>
+        <article class="skill reveal"><div class="num">04</div><h3>Tài liệu 4</h3><p>Mô tả nội dung.</p><div class="bar"><i style="width:70%"></i></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head reveal">
+        <span>03</span>
+        <h2>Giới thiệu các đội thi</h2>
+      </div>
+      <div class="projects">
+        <article class="project reveal">
+          <div class="project-image"><img src="images/BACKDROP.jpg" alt="Sản phẩm 1"></div>
+          <div class="project-info"><h3>ĐỘI ĐOÀN KẾT</h3><p>Để slogan đội thi.</p></div>
+        </article>
+        <article class="project reveal">
+          <div class="project-image p2"><img src="images/sanpham2.jpg" alt="Sản phẩm 2"></div>
+          <div class="project-info"><h3>ĐỘI LUYỆN GIỎI</h3><p>Để slogan đội thi.</p></div>
+        </article>
+        <article class="project reveal">
+          <div class="project-image p3"><img src="images/sanpham3.jpg" alt="Sản phẩm 3"></div>
+          <div class="project-info"><h3>ĐỘI ĐI TỐT</h3><p>Để slogan đội thi.</p></div>
+        </article>
+        <article class="project reveal">
+          <div class="project-image p4"><img src="images/sanpham4.jpg" alt="Sản phẩm 4"></div>
+          <div class="project-info"><h3>ĐỘI ĐÁNH THẮNG</h3><p>Để slogan đội thi.</p></div>
+        </article>
+      </div>
+       </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-head reveal">
+        <span>04</span>
+        <h2>Góp ý</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="reveal">
+          <p class="lead">Bạn có một ý tưởng cần góp ý với chúng tôi?</p>
+          <p>Hãy liên hệ để trao đổi về những ý tưởng của bạn.</p>
+        </div>
+        <form id="contactForm" class="contact-form reveal">
+          <input type="text" placeholder="Họ và tên" required>
+          <input type="email" placeholder="Email" required>
+          <textarea rows="5" placeholder="Nội dung..." required></textarea>
+          <button class="btn primary" type="submit">Góp ý</button>
+          <p id="formMessage" class="form-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Hội thi Thanh niên Trung đoàn với Văn hoá giao thông</span>
+    <span>TRUNG ĐOÀN 2 / SƯ ĐOÀN 395</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
